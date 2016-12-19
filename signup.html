@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="header">
+						<img id="badge" src="images/badge.png" alt="badge">
+						<h1>Manchester United F.C.</h1>
+						<a id="adidas" href="http://www.global.adidas.com/" target="_blank">Adidas</a>
+	<!--FIRST UL-->
+			<nav>
+				<ul id="ul1">
+						<li><a href="signup.html">SIGN UP</a></li>
+						<li><a href="#">LOGIN</a></li>
+				</ul>
+			</nav>
+	<!--SECOND UL-->
+			<nav>
+				<ul id="ul2">
+						<li><a href="https://www.instagram.com/manchesterunited/" target="_blank"><img class="navimg" src="images/inst.png" alt="instagram"></a></li>
+						<li><a href="https://www.facebook.com/manchesterunited/?hc_ref=NEWSFEED&fref=nf" target="_blank"><img class="navimg" src="images/face.gif" alt="facebook"></a></li>
+						<li><a href="https://twitter.com/ManUtd" target="_blank" ><img class="navimg" src="images/twitter.png" alt="twitter"></a></li>
+				</ul>
+			</nav>
+	<!--Search-->
+				<form action="index.html" method="post">
+					<input type="text" placeholder="Search...">
+				</form>
+	<!--_________________HOME BUTTON_____________-->
+				<button><a href="index.html">HOME</a></button>
+			</div>
+		</header>
+	<!--____________________ASIDE____MENU_______________-->
+		<aside>
+			<div class="menu">
+				<button>MENU</button>
+				<ul class="menu1">
+					<li><a href="#">Our Team</a>
+						<ul class="team">
+							<li><a href="menu1.html">GK</a></li>
+							<li><a href="menu2.html">Defenders</a></li>
+							<li><a href="menu3.html">Midfielders</a></li>
+							<li><a href="menu4.html">Forwards</a></li>
+						</ul>
+					</li>
+					<li><a href="menu5.html">Our Manager</a></li>
+					<li><a href="#">Club Info</a>
+						<ul class="info">
+							<li><a href="menu6.html">History</a></li>
+							<li><a href="menu7.html">Trophies</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</aside>
+		<div class="maincontentcontainer">
+		<main>
+				<div class="header2"></div>
+				<div class="signup">
+					<h2>Man United - Sign Up:</h2>
+					<h2>Your Details:</h2>
+					<div id="form">
+					<form id="form1" action="malito:ivan_spasov99@abv.bg" method="post">
+						<p>
+							<label  for="first">*First name:</label>
+							<input class="edit" id="first" type="text" name="firstname" placeholder="First name..." required>
+						</p>
+						<p>
+							<label for="secondname">*Second name:</label>
+							<input class="edit" id="secondname" type="text" name="secondname" placeholder="Second name..." required>
+						</p>
+						<p>
+							<label for="lastname">*Last name:</label>
+							<input class="edit" id="lastname" type="text" name="lastname" placeholder="Last name..." required>
+						</p>
+						<p>
+							<label for="country">*Choose country:</label>
+						<select id="country" >
+							<option>Bulgaria</option>
+							<option>China</option>
+							<option>Germany</option>
+							<option>UK</option>
+							<option>US</option>
+							<option>France</option>
+						</select></p>
+						<p>
+							<label for="player">Choose favourite player:</label>
+						<select id="player">
+						    <option></option>
+							<option>De Gea</option>
+							<option>Pogba</option>
+							<option>Ibrahimovic</option>
+							<option>Rooney</option>
+							<option>Martial</option>
+							<option>Rashford</option>
+						</select></p>
+						<p><label for="email">*Email:</label>
+							<input class="edit" id="email" type="text" name="email" placeholder="Email..." required></p>
+						<p><label for="pass">*Password:</label>
+							<input class="edit" id="pass" type="password" name="email" placeholder="Password..." required></p>
+						<p>*Do you want news feed:
+							<label for="yes">Yes</label>
+							<input id="yes" type="radio" name="news" value="Yes">
+							<label for="no">No</label>
+							<input id="no" type="radio" name="news" >
+						</p>
+						<p>
+							<label for="Pcode">Zip/Postal code:</label>
+ 							<input class="edit" id="Pcode" type="text" name="pcode" placeholder="Zip/Postal code..."></p>
+ 						<p>
+ 							<label for="BD">Birthday:</label>
+ 							<input id="BD" class="edit" type="date" name="Birthday">
+ 						</p>
+ 							<label for="com">Comments/Questions:</label>
+ 			            <p><textarea id="com" cols="40" rows="4" placeholder="Comments/Questions..."></textarea></p>
+ 						<p>Gender:
+ 							<select>
+ 							<option>Male</option>
+ 							<option>Female</option>
+ 							</select>
+ 						</p>
+ 						<p>
+ 							<label for="must">I have read and accept the Terms and Conditions</label>
+ 							<input id="must" type="checkbox" name="Conditions" required>
+ 						</p>
+ 						<p>
+ 							<input id="button" type="submit" value="Register">
+ 						</p>
+					</form>
+					</div>
+				</div>
+		</main>
+	    </div>
+	    </div>
+</body>
+</html>

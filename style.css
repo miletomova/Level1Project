@@ -1,0 +1,1080 @@
+html,body,div,p,img,h1,h2,h3,h4,a,ul,li,button,form,input,table,tr,td{
+	padding: 0;
+	margin: 0;
+}
+/*________________!!!!!!!!!!!!!MAIN PAGE!!!!!!!!!___________________/*
+/*CONTAINER*/
+.container{
+	position: relative;
+	background-image: url("images/img3.jpg");
+	background-size: 100% 100%;
+	width: 100%;
+	height: 1500px;
+}
+/*------------------STARTING _______HEADER______-------*/
+.header{
+	position: fixed;
+	background-color: #000;
+	width: 100%;
+	height: 5%;
+	border-bottom: 1px solid #7A7A7A;
+	z-index: 9999;
+}
+.header h1{
+	position: absolute;
+  	color: #FFF;
+  	bottom: 0%;
+  	border-right: 1px solid #FFF;
+  	padding-right: 0.5%;
+  	padding-top: 100%;
+  	left: 3%;
+ }
+#adidas{
+	position: absolute;
+	display: block;
+	text-decoration: none;
+	bottom: 0%;
+	left: 21.5%;
+	font-size: 2em;
+	font-style: italic;
+	font-family: Impact,Charcoal,sans-serif;
+	color: #FFF;
+}
+#badge{
+	position: absolute;
+	width: 2.5%;
+	bottom: 0%
+}
+/*------------------HEADER UL-----------------------*/
+/*-----------------UL1--------------*/
+#ul1{
+	position: absolute;
+	bottom: 0%;
+	right: 32%;
+}
+.header #ul1 li{
+	margin: 10px;
+	display: inline-block;
+	list-style: none;
+}
+.header #ul1 li a{
+	color: #FFF;
+	display: block;
+	text-decoration: none;
+	padding: 3px;
+}
+/*UL2*/
+.header #ul2{
+	border-right: 1px solid #FFF;
+	position: absolute;
+	bottom: 0%;
+	right: 22%;
+	padding-top:100%;
+}
+.header #ul2 li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 18px;
+	margin-bottom: 2px;
+	border-bottom: 1px solid white;
+	
+}
+.header #ul2 li a:hover{
+	border-bottom: 4px solid white;
+}
+
+.navimg{
+	width: 35px;
+}
+/*-------------------HOME HEADER BUTTON--------------------*/
+.header button{
+	top: 4%;
+	position: absolute;
+	right: 1%;
+	border: none;
+	box-shadow: 4px 6px 6px #BBBED4;
+	width: 100px;
+	height: 40px; 
+	background-color: #A00C0C;
+	font-size: 1.6em;
+	color: #FFF;
+	font-family: Impact,Charcoal,sans-serif;
+	font-style: italic;
+}
+.header button:hover{
+	background-color: #8D0C0C;
+	border-bottom: 4px solid #FFF;
+}
+.header button a{
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+}
+/*FORM HEADER SEARCH*/
+.header form input{
+	position: absolute;
+	left: 80%;
+	bottom: 20%;
+	width: 90px;
+	height: 30px;
+	transition: width 1s ease;
+	border-radius: 2px;
+	border: none;
+	padding-left: 5px;
+}
+.header form input:focus{
+	width: 250px;
+}
+/*--------------------END ______HEADER______------------------*/
+/*-----------________MENU___ASISDE___----------------------*/
+.menu{
+	position: fixed;
+	top: 14%;
+	height: 50%;
+	width: 15%;
+	left: 0.5%;
+	z-index: 9997;
+}
+.menu button{
+	text-align: center;
+	border: none;
+	box-shadow: 4px 10px 10px #BBBED4;
+	width: 40%;
+	height: 10%; 
+	background-color: #A00C0C;
+	font-size: 1.6em;
+	color: #FFF;
+	font-family: Impact,Charcoal,sans-serif;
+	font-style: italic;
+}
+.menu button:hover{
+	background-color: #8D0C0C;
+	border-bottom: 4px solid #FFF;
+}
+.menu .menu1{
+	position: absolute;
+	top: 13%;
+}
+.menu ul li{
+	border-bottom: 1px solid #FFF;
+	list-style: none;
+	padding-right: 20px;
+}
+.menu ul li a{
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	font-size: 1.6em;
+	font-family: "Courier New", Courier, monospace;
+	padding: 4px;
+}
+.menu ul li:hover{
+	border-left: 4px solid #FFF;
+}.menu .team{
+	position: absolute;
+	left: 100%;
+	top: 0%;
+	display: none;
+}
+.menu .info{
+	position: absolute;
+	left: 100%;
+	top: 50%;
+	display: none;
+}
+.menu ul li:hover .team{
+	display: block;
+}
+.menu ul li:hover .info{
+	display: block;
+}
+.menu button:hover .menu1{
+	display: block;
+}
+
+/*------------END____MENU__ASIDE____--------------------*/
+/*-----------STARTING _______MAIN CONTENT_______-----------*/
+.maincontentcontainer{
+	position: absolute;
+	height: 96.7%;
+	width: 75%;
+	top: 3.3%;
+	left: 12.5%;
+	z-index: 1;
+}
+.header2{
+	position: absolute;
+	height: 10%;
+	width: 100%;
+	background-image: url("images/header2.png");
+	background-position: top;
+	z-index: 2;
+}
+.header3{
+	position: absolute;
+	top:10%;
+	height: 6%;
+	width: 70%;
+	background-image: url("images/hotnews.jpg");
+	background-size:  cover;
+	background-position: center;
+	z-index: 3;
+}
+/*------------________ HOT NEWS______------------*/
+.hotnews
+{
+	position: absolute;
+	height: 34%;
+	top:16%;
+	width: 70%;
+	z-index: 2;
+}
+.hotnews .jose{
+	position: absolute;
+	width: 100%;
+	height: 30%;
+	background-color: #E5E0E0;
+}
+.hotnews img{
+	position: absolute;
+	width: 20%;
+	height: 99%;
+	z-index: 100;
+	border-left: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-top: 2px solid #FFF;
+}
+.news{
+	padding-left: 2%;
+	position: absolute;
+	padding-bottom: 7.3%;
+	font-weight: bold;
+	left: 20%;
+	display: block;
+	text-decoration: none;
+	color: #B43737;
+	border-left: 11px solid #E5E0E0 ;
+}
+.news p{
+	color: #000;
+	font-size: 1.3em;
+	font-style: italic;
+}
+.jose a:hover, .miki a:hover, .antony a:hover {
+	border-left: 11px solid #B43737 ;
+}
+.miki{
+	position: absolute;
+	top: 30.1%;
+	width: 100%;
+	height: 30%;
+	background-color: #E5E0E0;
+}
+
+.antony{
+	position: absolute;
+	top: 60.1%;
+	width: 100%;
+	height: 30%;
+	background-color: #E5E0E0;
+	border-bottom: 5px solid #FFF;
+	z-index: 150;
+}
+.hotnewsfooter{
+	text-align: center;
+	position: absolute;
+	top: 90.2%;
+	width: 100%;
+	height: 9.8%;
+	background-color: #E5E0E0;
+}
+.hotnewsfooter p{
+	color: #B43737;
+	margin: 1%;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 1em;
+
+}
+.hotnewsfooter p span{
+	color: #000;
+}
+/*------------END_____HOT NEWS______--------*/
+/*------------_____COMING MATCHES______--------*/
+.comingmatches{
+	color: #B43737;
+	text-align: center;
+	position: absolute;
+	height: 40%;
+	top:10%;
+	width: 30%;
+	right: 0%;
+	background-color: #E5E0E0;
+	border-left: 4px solid #FFF;
+	border-bottom: 4px solid #FFF;
+	z-index: 200;
+}
+.match1{
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+	height: 10%;
+	top: 11%;
+	color: #000;
+	border-bottom: 4px solid #FFF;
+}
+
+.comingmatches .home{
+	position: absolute;
+	width: 9%;
+	left: 10%;
+}
+.comingmatches .away{
+	position: absolute;
+	width: 9.5%;
+	right: 16%;
+}
+.comingmatches .teams{
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	color: #000;
+	font-size: 1.3em;
+}
+.match2{
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	height: 11%;
+	top: 23%;
+	color: #000;
+	border-bottom: 4px solid #FFF;
+}
+.comingmatches #away1{
+	position: absolute;
+	width: 10%;
+	right: 10%;
+}
+.match3{
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	height: 11%;
+	top: 36%;
+	color: #000;
+	border-bottom: 4px solid #FFF;
+}
+.match4{
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	height: 11%;
+	top: 48%;
+	color: #000;
+	border-bottom: 4px solid #FFF;
+}
+.match5{
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	height: 11%;
+	top: 60%;
+	color: #000;
+	border-bottom: 4px solid #FFF;
+}
+.match6{
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	height: 11%;
+	top: 73%;
+	color: #000;
+	border-bottom: 4px solid #FFF;
+}
+.comingmatches .liv{
+	position: absolute;
+	right: 21%;
+	width: 8%;
+}
+.match7{
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	height: 12%;
+	top: 86%;
+	color: #000;
+}
+/*------------END_____COMING MATCHES______--------*/
+/*------------_____MANAGER VIEW______--------*/
+.managersview{
+	position: absolute;
+	top:50%;
+	width: 50%;
+	height: 20%;
+	background-color: grey;
+}
+.managerview2{
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	background-color: #E5E0E0;
+}
+.managerview2 img{
+	z-index: 15;
+	position: absolute;
+	width: 29%;
+	height: 99%;
+	border-left: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-top: 2px solid #FFF;
+}
+.view{
+	z-index: 5;
+	padding-left: 3%;
+	padding-bottom: 6.6%;
+	position: absolute;
+	font-weight: bold;
+	left: 29%;
+	display: block;
+	text-decoration: none;
+	color: #B43737;
+	border-left: 13px solid #E5E0E0;
+}
+.view p{
+	font-style: italic;
+	color: #000;
+}
+ .managerview2 .view:hover{
+	border-left: 13px solid #DA3535;
+}
+.managerview3{
+	top:50%;
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	background-color: #E5E0E0;
+}
+.managerview3 img{
+	z-index: 15;
+	position: absolute;
+	width: 29%;
+	height: 99%;
+	border-left: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-top: 2px solid #FFF;
+}
+.managerview3 .view:hover{
+	border-left: 13px solid #DA3535;
+}
+
+/*------------END_____MANAGER VIEW______--------*/
+/*------------_____LEAGUE EUROPE______--------*/
+.LEEU{
+	border-left: 2px solid #FFF;
+	position: absolute;
+	top: 70%;
+	width: 50%;
+	height: 15%;
+	background-color: #E5E0E0;
+}
+.LEEU p{
+	color: #D37E04;
+	font-size: 1.7em;
+}
+.LEEU table{
+	top: 20%;
+	position: absolute;
+	left: 2%;
+	border: 2px solid #000;
+	border-collapse: collapse ;
+}
+.LEEU td{
+	padding: 4px;
+	border: 2px solid #000;
+}
+.LEEU #head{
+	position: absolute;
+	left: 76%;
+	top: 2%;
+}
+.LEEU #team1{
+	position: absolute;
+	left: 74%;
+	top: 19%;
+	background-color: #E5E0E0;
+	padding: 10px;
+	border: 2px solid #000;
+	color: #BD1010;
+}
+.LEEU #team2{
+	position: absolute;
+	left: 74%;
+	top: 68%;
+	background-color: #E5E0E0;
+	padding: 10px;
+	border: 2px solid #000;
+	color: #0D7517;
+}
+.LEEU #vs1{
+	position: absolute;
+	left: 78%;
+	top: 50%;
+	color: #000;
+}
+.AD{
+	background-color: #D37E04;
+}
+/*------------__END_______LEAGUE EUROPE______--------*/
+/*------------_____BPL league______--------*/
+.bpltable{
+	position: absolute;
+	right: 0%;
+	top:50%;
+	width: 49.7%;
+	height: 34.7%;
+	background-color: #B60F0F ;
+	border-top: 4px solid #FFF;
+	border-left: 4px solid #FFF;
+	border-bottom: 4px solid #FFF;
+	overflow: auto;
+}
+.table{
+	left: 3.5%;
+	top: 12%;
+	position: absolute;
+	border: 2px solid #000;
+	border-collapse: collapse;
+	background-color: #E5E0E0;
+	font-style: italic;
+}
+.table td{
+	padding: 5px 22px;
+	border: 2px solid #000;
+}
+.table .CL{
+	background-image: url("images/champions.jpg");
+	background-size: cover;
+	color: #FFF;
+}
+.table .EU{
+	background-image: url("images/europe.jpg");
+	background-size: cover;
+	color: #FFF;
+}
+.table .REL{
+	background-color: #BB1717;
+}
+.bpltable p{
+	left: 3.5%;
+	margin: 5px;
+	color: #FFF;
+	font-size: 1.2em;
+}
+.table #united{
+	font-weight: bold;
+
+}
+/*------------__END_________________BPL league______--------*/
+/*------------_________________LAST FIXTURES______--------*/
+.lastfixtures{
+	position: absolute;
+	top: 85%;
+	width: 50%;
+	height: 10%;
+	background-color: #F37800;
+}
+.lastfixtures .fixture1{
+	position: absolute;
+	text-align: center;
+	top: 2%;
+	width: 100%;
+	height: 43%;
+	border-bottom: 2px solid #FFF;
+}
+.fixture1 .fixturehome{
+	position: absolute;
+	width: 60px;
+	left: 27%;
+}
+.fixture1 .fixtureaway{
+	position: absolute;
+	width: 40px;
+	left: 62%;
+}
+.fixture1 .fixtureteams{
+	position: absolute;
+	top: 45%;
+	left: 35%;
+	font-weight: bold;
+}
+.fixture1 a{
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+.lastfixtures .fixture2{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 43%;
+	top: 50%;
+}
+.fixture2 .fixturehome{
+	position: absolute;
+	width: 25px;
+	left: 29%;
+}
+.fixture2 .fixtureaway{
+	position: absolute;
+	width: 40px;
+	left: 62%;
+}
+.fixture2 .fixtureteams{
+	position: absolute;
+	top: 45%;
+	left: 35%;
+	font-weight: bold;
+}
+.fixture2 a{
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+/*------------______END___________LAST FIXTURES______--------*/
+/*------------_________________player NEWS______--------*/
+.playernews{
+	position: absolute;
+	top: 85%;
+	width: 50%;
+	height: 10%;
+	right: 0%;
+	background-color: #E5E0E0; 
+}
+.playernews #playernews1{
+	position: absolute;
+	height: 100%;
+	width: 50%;
+}
+.playernews #playernews1 img{
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	border: 1px solid #FFF;
+}
+.playernews #playernews1 a{
+	position: absolute;
+	display: block;
+	text-decoration: none;
+	left: 40.3%;
+	border-left: 6px solid #E5E0E0;
+	padding-right: 5px;
+	padding-bottom: 15.3%;
+	font-size: 1.6em;
+	color: #B11A1A;
+	padding-top: 10px;
+	padding-right: 15px;
+	border-right: 2px solid #FFF;
+}
+.playernews #playernews a:hover{
+	border-left: 6px solid #CC0909;
+}
+.playernews #monthgoal{
+	color: #C20E0E;
+	font-size: 1.1em;
+	position: absolute;
+	left: 50%;
+	top:15%;
+}
+#goals{
+	position: absolute;
+	left:80%;
+	top: 50%;
+
+}
+#goals a{
+	text-decoration: none;
+	color: #000;
+	display: block;
+	font-size: 1em;
+}
+#vote{
+	position: absolute;
+	color: #AC1A1A;
+	left: 10%;
+	font-size: 1.2em;
+	font-style: italic;
+}
+
+/*------------__________END_______degea NEWS______--------*/
+/*-------------------END_____MAIN CONTENT____-------------------*/
+/*----------------------STARTING ____FOOTER_____-------------------*/
+.footer{
+	border-top: 3px solid #FFF;
+	position: absolute;
+	bottom: 0%;
+	height: 5%;
+	width: 100%;
+	background-color: #E5E0E0;
+	text-align: center;
+}
+.footer p{
+	font-size: 3em;
+	color: #AC1A1A;
+}
+.footer img{
+	width: 200px;
+	height: 100%;
+}
+.footer #footer2{
+	position: absolute;
+	left: 10%;
+}
+.footer #footer3{
+	position: absolute;
+	right: 10%;
+	top: 0%;
+}
+
+/*-------------------END_______FOOTER_____------------*/
+/*______________END FIRST PAGE__________*/
+/*_______SECOND PAGE SIGN UP______*/
+.signup{
+	position: absolute;
+	background: #E5E0E0;
+	width: 100%;
+	height: 60%;
+	top: 10%;
+	text-align: center;
+	border: 4px solid #B52424;
+}
+.signup h2{
+	font-style: italic;
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: #B52424;
+}
+#form{
+	border-left: 2px solid #B52424;
+	position: absolute;
+	left: 5%;
+	top: 10%;
+	width: 50%;
+	height: 60%;
+	color: #B52424;
+	font-size: 1.3em;
+}
+#form1{
+	text-align: left;
+	position: absolute;
+	left: 5%;
+	top: 2%;
+}
+#form .edit, select{
+	width: 150px;
+	height: 25px;
+}
+#form p{
+	margin-bottom: 15px;
+}
+#form #button{
+	background-color: #B52424;
+	font-size: 1em;
+	padding: 5px;
+	color: #FFF;
+}
+/*__________END SECOND PAGE SIGN UP*/
+/*_____ NEWS PAGE_________*/
+.newspage{
+	position: absolute;
+	top: 10%;
+	height: 86%;
+	width: 99.1%;
+	background-color: #E5E0E0;
+	border-left: 6px solid #AC2E2E;
+	border-right: 6px solid #AC2E2E;
+	overflow: auto;
+}
+.newspage #head2{
+	position: absolute;
+	left: 2%;
+	color: #5D5D5D;
+	border-left: 4px solid #CF3131;
+	font-size: 1.8em;
+	padding-left: 4px;
+}
+.newspage #img1{
+	position: absolute;
+	width: 50%;
+	top: 3%;
+	height: 35%;
+}
+.newspage #posttext{
+	left: 3%;
+	position: absolute;
+	top: 39%;
+	font-size: 1em;
+	color: #7D7D7D;
+}
+.newspage #img2{
+   position: absolute;
+   left: 50%;
+	width: 49.9%;
+	top: 3%;
+	height: 35%;
+	border-left: 1px solid #FFF;
+}
+.newspage h2{
+	position: absolute;
+	left: 30%;
+	top: 40%;
+	color: #AC2E2E;
+}
+.newspage #tekst1{
+	position: absolute;
+	top: 42%;
+	color: #000;
+	font-style: italic;
+	font-family: Impact,Charcoal,sans-serif;
+	left: 4%;
+}
+.newspage span{
+	font-weight: bold;
+}
+.newspage p{
+	margin-bottom: 15px;
+}
+#mainp2{
+	position: absolute;
+	top: 45%;
+	left: 1%;
+	width: 95%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+/*______NEWS PAGE 2*/
+.newspage #tekst2{
+	position: absolute;
+	top: 42%;
+	color: #000;
+	font-style: italic;
+	font-family: Impact,Charcoal,sans-serif;
+	left: 10%;
+}
+/*____________MENU1 - GK/DEF/MID/FOR PAGE- PLAYERS_______________*/
+.maincontentcontainer2{
+	position: absolute;
+	height: 96.7%;
+	width: 75%;
+	top: 3.3%;
+	left: 12.5%;
+	z-index: 1;
+	background-color: #B9B9B9;
+	overflow: auto;
+}
+.squad{
+	position: absolute;
+	top: 10%;
+	width: 100%;
+	height: 4%;
+	color: #A53636;
+	border-bottom: 3px solid #A53636;
+}
+.squad h2{
+	position: absolute;
+	border-left: 2px solid #A53636;
+	padding: 10px;
+	margin-top: 5px;
+	width: 25%;
+	left: 10%;
+}
+.degea{
+	position: absolute;
+	width: 45%;
+	left: 4%;
+	height: 25%;
+	top: 20%;
+}
+.players img{
+	position: absolute;
+	top: 10%;
+	width: 200px;
+	height: 214px;
+	border: 1px solid #FFF;
+	opacity: 0.6;
+}
+.players img:hover{
+	opacity: 1;
+}
+.players h3{
+	position: absolute;
+	color: #FFF;
+	left: 2%;
+	border-left: 2px solid #A53636;
+	padding-left: 5px;
+}
+.players table{
+	top: 10%;
+	position: absolute;
+	right: 7%;
+	border: #000;
+	border-collapse: collapse;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #929292;
+	color: #B32E2E;
+	width: 60%;
+}
+.players table td{
+	border: 1px solid #000;
+	padding: 2px;
+}
+.players h4{
+	position: absolute;
+	top: 70%;
+	left: 3%;
+	color: #B32E2E;
+	font-size: 2em;
+}
+.players p{
+	position: absolute;
+	top: 78%;
+	left: 3%;
+	color: #B32E2E;
+	font-size: 1.5em;
+}
+.romero{
+ 	position: absolute;
+	width: 45%;
+	right: 6%;
+	height: 25%;
+	top: 20%;
+}
+.sam{
+	position: absolute;
+	width: 45%;
+	left: 4%;
+	height: 25%;
+	top: 45%;
+}
+.player1{
+	position: absolute;
+	top: 20%;
+	width: 45%;
+	left: 4%;
+	height: 25%;
+}
+.player2{
+	position: absolute;
+	width: 45%;
+	right: 6%;
+	height: 25%;
+	top: 20%;
+}
+.player3{
+	position: absolute;
+	width: 45%;
+	left: 4%;
+	height: 25%;
+	top: 45%;
+}
+.player4{
+ 	position: absolute;
+	width: 45%;
+	right: 6%;
+	height: 25%;
+	top: 45%;
+}
+.player5{
+	position: absolute;
+	width: 45%;
+	left: 4%;
+	height: 25%;
+	top: 68%;
+}
+.player6{
+ 	position: absolute;
+	width: 45%;
+	right: 6%;
+	height: 25%;
+	top: 68%;
+}
+.player7{
+	position: absolute;
+	width: 45%;
+	left: 4%;
+	height: 25%;
+	top: 91%;
+}
+.player8{
+	position: absolute;
+	width: 45%;
+	right: 6%;
+	height: 25%;
+	top: 91%;
+}
+.player9{
+	position: absolute;
+	width: 45%;
+	right: 30%;
+	height: 25%;
+	top: 115%;
+}
+/*____ MENU1 - GK/DEF/MID/FOR PLAYERS END_________*/
+/*______________TROPHIES____________*/
+#trophies{
+	top:10%;
+	position: absolute;
+	height: 90%;
+	width: 100%;
+	background-color: #969696;
+
+}
+#trophies img{
+	position: absolute;
+	top: 7%;
+	width: 250px;
+	height: 400px;
+	left: 4%;
+}
+.trophy1{
+	position: absolute;
+	width: 35%;
+	height: 40%;
+	left: 5%;
+	top: 5%;
+
+}
+#trophies h2{
+	position: absolute;
+	left: 5%;
+	border-left: 4px solid #AC2B2B;
+	color: #EEEEEE;
+	padding-left: 5px;
+}
+#trophies ul{
+	position: absolute;
+	left: 64%;
+	top: 8%;
+	font-size: 1.1em;
+
+}
+#trophies ul li{
+	color: #AC2B2B;
+}
+.trophy2{
+	position: absolute;
+	width: 35%;
+	height: 40%;
+	left: 50%;
+	top: 5%;
+}
+.trophy3{
+	position: absolute;
+	width: 35%;
+	height: 40%;
+	left: 5%;
+	top: 45%;
+}
+.trophy4{
+	position: absolute;
+	width: 35%;
+	height: 40%;
+	left: 50%;
+	top: 45%;
+}
